@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <style>
+    body {
+      background-image: url('login.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+
+
+    <link rel="stylesheet" href="login.css">
+<style>
+/* Style all input fields */
+<center>
+input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+</center>
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+</style>
+</head>
+<body><background-image="login.jpg">
+<center>
+<h3>Welcome To Indian Tourism</h3>
+<p>LOGIN</p></center>
+<center>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="usrname">Username</label>
+    <input type="text" size=20 id="usrname" placeholder="abc@gmail.com" name="usrname " required>
+<br/>
+    <label for="psw">Password</label>
+    <input type="password" size=20 id="psw" placeholder="********" name="psw" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    <br/><br/><br/>
+    <input type="submit"  value="Submit" size=20>
+  </form>
+</div>
+</center>
+</background-image>
+				
+<script>
+
+</script>
+
+</body>
+</html>

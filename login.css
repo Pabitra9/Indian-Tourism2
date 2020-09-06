@@ -1,0 +1,49 @@
+body{
+    background-color: blue;
+    font-family:"Roboto", "Arial", "Helvetica Neue", "sana-serif";
+}
+
+.b-1 {
+    border: 1px solid #d9d9d9;
+}
+
+.box {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.wrapper {
+    padding: 30px 50px 30px 50px;
+}
+
+
+}
+.input {
+    margin-bottom: 15px;
+    width: 250px;
+    border: 1px solid #d9d9d9;
+    height: 34px;
+    border-radius: 4px;
+    padding-left: 14px;
+}
+
+spna.tittle {
+    margin-bottom: 40px;
+    display: block;
+    font-size: 32px;
+}
+.btn {
+    padding: 10px;
+    width: 30%;
+    border-radius: 2px;
+    border: 1px solid green;
+    background: green;
+}
